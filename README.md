@@ -31,3 +31,12 @@ Example
 
 The connection to Datalab is now open and will remain until this command is killed.
 Click on the *Web Preview* (square button at top-right), select *Change port > Port 8081*, and start using Datalab.
+Continue in the Cloud Datalab tab
+In Cloud Datalab home page (browser), open a new notebook using the icon 5fdee4bbcdee4b9a.png on the top left.
+
+In the new notebook, enter the following commands in the cell, and click on Run (on the top navigation bar) to run the commands:
+
+%bash
+git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+cd training-data-analyst
+Confirm that you have cloned the repo by going back to Datalab browser, and ensure you see the training-data-analyst directory.
